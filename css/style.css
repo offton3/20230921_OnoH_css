@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+}
+
+
+header.header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+h2.header_tittle{
+    margin: 0 10px;
+}
+
+ul.nav{
+    list-style: none;
+    display: flex;
+    color: blue;
+    font-weight: bold;
+}
+
+li.nav{
+    padding: 0px 10px;
+}
+
+main{
+    padding: 100px 0;
+    position: relative;
+
+}
+
+img.main_buckgrond{
+    padding-top: 0%;
+    margin: 0 0 0 auto;
+    display: block;
+    width: 40%;
+    z-index: 0;
+}
+
+h1.main_slogan{
+    font-size: 72px;
+    font-weight: lighter;
+    margin: 0;
+
+}
+
+div.blue-box{
+
+    height: 200px;
+    margin: 0 auto 0 0;
+    background-color: darkblue;
+    width: 80%;
+
+}
+
+div.absolute{
+    position:absolute;
+    top: 400px;
+    width: 100%;
+    z-index: -100;
+}
