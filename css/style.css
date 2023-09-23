@@ -33,7 +33,7 @@ ul.nav{
 
 li.nav{
     padding-right: 20px;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 main{
